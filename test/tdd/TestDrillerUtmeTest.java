@@ -10,7 +10,7 @@ public class TestDrillerUtmeTest {
         //Given That We have a class
         utmeTestOne utmeTestOne =new utmeTestOne();
         // When We Want We want Copies Between 1 - 4
-       // int copy = utmeTestOne.buycopies(4);
+        int copy = utmeTestOne.buycopies(4);
         //Check that Copies Multiplied By #2,000 is #8,000
         assertEquals(8_000,utmeTestOne.buycopies(4));
 
